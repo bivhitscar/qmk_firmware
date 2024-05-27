@@ -37,9 +37,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
        KC_ESC,    KC_1,    KC_2,    KC_3,    KC_4,    KC_5,                         KC_6,    KC_7,    KC_8,    KC_9,    KC_0, KC_BSPC,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_LCTL, KC_LSFT, KC_BTN4, KC_BTN5, KC_WH_U, KC_HOME,                      KC_VOLD, KC_VOLU,   KC_UP, KC_MPLY, XXXXXXX, KC_PSCR,
+      KC_LCTL, KC_LSFT, KC_BTN4, KC_BTN5, KC_WH_U, KC_HOME,                      KC_LEFT, KC_DOWN,   KC_UP,KC_RIGHT, XXXXXXX, KC_PSCR,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-   LCTL(KC_L),LGUI(KC_E),KC_WH_L,KC_WH_R, KC_WH_D, KC_END,                       KC_MUTE, KC_LEFT, KC_DOWN,KC_RIGHT, XXXXXXX, KC_PENT,
+   LCTL(KC_L),LGUI(KC_E),KC_WH_L,KC_WH_R, KC_WH_D, KC_END,                       KC_MUTE, KC_VOLD, KC_VOLU, KC_MPLY, XXXXXXX, KC_PENT,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                           KC_LGUI, KC_SPC,  _______,  LALT(KC_ENT),MO(3), KC_RALT
                                       //`--------------------------'  `--------------------------'
